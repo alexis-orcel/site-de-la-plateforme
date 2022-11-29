@@ -1,0 +1,296 @@
+
+@import url('https://fonts.cdnfonts.com/css/maginors');
+@import url('https://fonts.cdnfonts.com/css/lemosty');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0 auto;
+    background-image: url(images/AMSTERDAM-17092682-8712079210991-1.webp);
+    background-position: 1000px;
+    
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 250px ;
+}
+
+section.top-page {
+    background: url(images/90s_style_background_with_pastel_geometric_shapes_generated.jpg);
+    background-size: cover ;
+    height: 80vh;
+    padding: 25px;
+    border: black solid;
+}
+
+.video {
+    margin:  17px;
+    border: solid black;
+    
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+
+.big-title {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Lemosty', sans-serif;
+    font-weight: 100;
+    margin-inline-start: 30px;
+    border: 10px;
+    border-style: solid;
+    border-color: #d60;
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, -21px 10px 8px 5px rgba(0,0,0,0); 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, -21px 10px 8px 5px rgba(0,0,0,0);
+background: #ECEFCF;
+}
+
+
+
+.scroll-down {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 130px;
+    font-size: 29px;
+    margin: black, 85px;
+}
+    
+/* menu de navigation */
+
+nav.nav {
+    display: flex ;
+    justify-content: space-between;
+    list-style: none;    
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color:black;
+    font-family: 'Maginors', sans-serif;
+}
+
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-between ;
+    margin: 50px;
+    border: solid;
+    background-image: url(images/90s-pattern1066526-shams.jpg);
+    border-radius: 1px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-family: 'Lemosty', sans-serif;
+    border: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-color: rgba(11, 10, 9, 0.948);
+    color: rgb(245, 245, 220);
+}
+
+.service-item {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0 0 2px rgb(217, 210, 210), 0 0 2px #d60;
+    
+}
+
+.delivery-icon {
+    font-size: 40px;
+    color: burlywood;
+}
+
+.service-details {
+    color: white;
+    border-color: black
+    font-weight: 600;
+    width: 100px;
+    text-align: center;
+}
+
+/* présentation formation */
+
+.section-titles {
+    font-size: 50px;
+    font-family: 'Lemosty', sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-titles::before {
+    content: "";
+    position: absolute;
+    background-color: blueviolet;
+    width: 50px;
+    height: 7px;
+    bottom: 0%;
+    
+}
+
+.best-items :{
+    margin: 50px;
+}
+
+.best-shot {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: "wrap";
+    justify-content: center;
+}
+
+/* cursus selection */
+
+.image-random {
+    
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/201235239_1078621145997058_6094835256863122113_n.jpg);
+    border: solid;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.image1 {
+    background-image: url(images/201235239_1078621145997058_6094835256863122113_n.jpg);
+}
+
+.image2 {
+    background-image: url(images/20191029_170143_laplateforme15.jpg);
+}
+
+.image3 {
+    background-image: url(images/277248122_1260895024436335_1959801074493764404_n.jpg);
+}
+
+.image4 {
+    background-image: url(images/284794997_1303175530208284_3405610826385169726_n.jpg);
+}
+
+
+/* Information */
+
+.section-titles2 {
+    background-color: rgb(24, 120, 149);
+    border: 10px;
+    border-style: solid;
+    border-color: #d60;
+    color: rgb(245, 245, 220);
+    font-size: 50px;
+    font-family: 'Lemosty', sans-serif;
+    font-weight: 100;
+    position: relative;
+    text-shadow: 0 0 2px rgb(221, 0, 0), 0 0 2px #d60;
+    margin: 100px;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.btn{ 
+    background-color: rgba(23, 26, 32, 0.8); 
+    border: none; 
+    border-radius: 6px; 
+    color: #fff; 
+    flex-grow: 1; 
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif; 
+    font-size: 15px; 
+    height: 36px; 
+    line-height: 20px; 
+    margin-left: 8px; 
+    margin-right: 6px; 
+    min-width: 185px; 
+    padding: 0 16px 0 16px; 
+    color:white; 
+    cursor: pointer; 
+} 
+    
+.myButton {
+        box-shadow: 0px 0px 0px 2px #f2ce9f;
+        background:linear-gradient(to bottom, #c27878 5%, #476e9e 100%);
+        background-color:#c27878;
+        border-radius:10px;
+        border:1px solid #000000;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: 'Lemosty', sans-serif;
+        font-size:19px;
+        padding:12px 37px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #283966;
+        display: flex;
+        margin-top: 1px;
+        flex-wrap: "wrap";
+        justify-content: center;
+        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.myButton:hover {
+        background:linear-gradient(to bottom, #476e9e 5%, #c27878 100%);
+        background-color:#476e9e;
+        
+}
+
+.myButton:active {
+        position:relative;
+        top:1px;
+}
+
+.service-inscription {
+    size: 2px;
+    margin: 100px;
+    color: #d60;
+    background-color: rgb(24, 120, 149);
+    border: 10px;
+    border-style: solid;
+    border-color: #d60;
+    color: rgb(245, 245, 220);
+    font-size: 20px;
+    font-family: 'Lemosty', sans-serif;
+    font-weight: 100;
+    position: relative;
+    text-shadow: 0 0 2px rgb(221, 0, 0), 0 0 2px #d60;
+}
+
+.best-image {
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/test.png);
+    border: solid;
+    min-width: 350px;
+    height: 500px;
+}
+
+
+    
+
+
+
+
+
+
